@@ -1,0 +1,48 @@
+@import '/src/assets/_color.scss';
+
+.myThumbsSwiper {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 1rem;
+    overflow-x: clip;
+    overflow-y: visible;
+    .swiper-slide:hover {
+        cursor: pointer;
+    }
+    img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid $black-0;
+        box-shadow: 4px 6px 10px 0px rgba(255,255,255,30%);
+
+    }
+}
+.myThumbsList {
+    width: 100%;
+    overflow-x: clip !important;
+    overflow-y: visible !important;
+    .swiper-slide {
+        aspect-ratio: 1/1;
+        height: auto;
+        transition: all .3s ease;
+
+        &:hover {
+            cursor: pointer;
+            translate: 0 -2%;
+
+            img {
+                border: 3px solid $primary;
+            }
+        }
+    }
+    img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid $black-0;
+        box-shadow: 4px 6px 10px 0px rgba(255,255,255,30%);
+        transition: all .3s linear;
+
+    }
+}

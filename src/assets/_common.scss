@@ -1,0 +1,37 @@
+$font-family: 'Noto Sans TC','Noto Sans', sans-serif;
+
+
+html,
+body {
+  height: 100%;
+  font-family: $font-family;
+  color: $black-0;
+  line-height: 1.5;
+}
+html {
+  background-color: white;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+#app {
+  min-height: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input {
+  border: unset;
+}
+
+input:focus , textarea:focus {
+  outline: 3px solid $primary;
+}
+.swal2-icon-content {
+  color: unset;
+}

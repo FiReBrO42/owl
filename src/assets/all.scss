@@ -1,0 +1,39 @@
+//載入方法
+@import 'bootstrap/scss/functions';
+
+//自定義變數
+@import './_variables.scss';
+
+//載入bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/mixins';
+
+//載入 googleFont
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700;900&family=Noto+Sans:wght@300;400;600;900&display=swap');
+
+//載入自定義 scss
+@import './_color.scss';
+//reset scss
+@import './_reset.scss';
+@import './_common.scss';
+
+@import './front/_home.scss';
+@import './front/_viewpoints.scss';
+@import './front/_product.scss';
+@import './front/_feedbackForm.scss';
+@import './front/_login.scss';
+
+@import './back/_adminProducts.scss';
+
+
+
+// 組件 scss
+@import '../components/scss/_mySwiper.scss';
+@import '../components/scss/_footer.scss';
+@import '../components/scss/_header.scss';
+@import '../components/scss/_myThumbsSwiper.scss';
+
+
+
+
+

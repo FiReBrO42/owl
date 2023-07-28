@@ -1,0 +1,15 @@
+@import '/src/assets/_color.scss';
+
+.footer_container {
+/*     position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,0); */
+    width: 100%;
+    padding: 1rem 0;
+    display: grid;
+    place-items: center;
+}
+small {
+    color: $black-40;
+}
