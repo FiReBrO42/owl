@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as e,a as s}from"./index-4e1062d4.js";const c={},r={class:"footer_container mt-0 mt-lg-3"},a=s("small",{class:"fs-8"},"Copyright © 2023 ",-1),n=[a];function _(i,p,f,l,d,m){return t(),e("footer",r,n)}const $=o(c,[["render",_]]);export{$ as F};
